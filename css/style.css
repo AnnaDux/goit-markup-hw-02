@@ -6,8 +6,10 @@ background: #F5F5F5;
 li { list-style-type: none;}
 a {text-decoration: none;}
 
-/*header*/
-
+/*header&footer*/
+header{
+    background-color: #FFFFFF;
+}
 .logo-web{
     font-weight: 700;
     font-size: 26px;
@@ -15,12 +17,20 @@ a {text-decoration: none;}
     letter-spacing: 0.03em;
     color: #2196F3;
 }
-.logo-studio{
+.logo-studio-header{
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #000000;
+}
+
+.logo-studio-footer{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 .nav-links a{
@@ -62,3 +72,29 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;
     color: #2196F3;
 }
+
+footer{
+    background-color: #2F303A;;
+}
+
+address{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+/*index-main-content*/
+
+
+
+
+
+
+
+
+
+/*portfolio-main-content*/
