@@ -220,7 +220,7 @@ text-align: center;
     line-height: 1.87;
 }
 
-.menu-button.active
+.menu-button .active
 {
     background-color: var(--accent-color);
     color: #FFFFFF;}
