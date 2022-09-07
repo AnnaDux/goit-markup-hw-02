@@ -13,6 +13,8 @@ body{
     font-family: 'Roboto', sans-serif;
     background: var(--bg-white);
     color: var(--base-text);
+    font-size:14px;
+    letter-spacing:  0.03em; 
 }
 li {list-style-type: none;}
 a {text-decoration: none;}
@@ -36,7 +38,6 @@ a {text-decoration: none;}
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19; 
-    letter-spacing: 0.03em;
     color: var(--accent-color)
 }
 .logo-studio-header{
@@ -44,7 +45,6 @@ a {text-decoration: none;}
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color:var(--black);
 }
 
@@ -53,13 +53,11 @@ a {text-decoration: none;}
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--bg-white);
 }
 
 .nav-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 0.07;
     letter-spacing: 0.02em;
     color:var(--secondary-text);
@@ -67,23 +65,20 @@ a {text-decoration: none;}
 
 .nav-link-active {
     font-weight: 500;
-    font-size: 14px;
     line-height: 0.07;
     letter-spacing: 0.02em;
     color: var(--accent-color);
 }
 
 .contacts-mail, .contacts-tel {
+    color: inherit;
     font-weight: 500;
-    font-size: 14px;
     line-height: 0.07;
     letter-spacing: 0.02em;
-    color: var(--base-text);
 }
 
 .contacts-mail:hover,.contacts-mail:focus{
     font-weight: 500;
-    font-size: 14px;
     line-height: 0.07;
     letter-spacing: 0.02em;
     color: var(--accent-color);
@@ -91,7 +86,6 @@ a {text-decoration: none;}
 
 .contacts-tel:hover, .contacts-tel:focus{
     font-weight: 500;
-    font-size: 14px;
     line-height: 0.07;
     letter-spacing: 0.02em;
     color: var(--accent-color);
@@ -102,10 +96,9 @@ a {text-decoration: none;}
 }
 
 .address{
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color:var(--bg-white);
+    font-style: normal;
 }
 
 /*index-main-content*/
@@ -144,28 +137,20 @@ color: var(--bg-white);
 
 /*section 2*/
 .advances-title{
-    font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--secondary-text);
 }
 
 .advances-text{
-    font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0.03em;
-    color: var(--base-text);
+    line-height: 1.71;
 }
 
 /*section 3*/
 .section-title{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     /*text-align: center;*/
-    letter-spacing: 0.03em;
     color: var(--secondary-text);
 }
 
@@ -184,7 +169,6 @@ color: var(--bg-white);
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--secondary-text);
 
 }
@@ -193,8 +177,6 @@ color: var(--bg-white);
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
-letter-spacing: 0.03em;
-color: var(--base-text);
 }
 
 
@@ -210,7 +192,6 @@ color: var(--base-text);
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--secondary-text);
 }
 
@@ -223,13 +204,11 @@ color: var(--base-text);
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--bg-white);
 }
 
 /*section 2*/
 .project-title{
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -238,8 +217,12 @@ color: var(--base-text);
 
 .project-text{
     font-size: 16px;
-    line-height: 2;
-    letter-spacing: 0.03em;
-    color: var(--base-text);
+    line-height: 1.87;
 }
 
+.menu-button.active
+{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+
+}
