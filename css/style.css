@@ -11,7 +11,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background: var(--bg-white);
+    background-color: var(--bg-white);
     color: var(--base-text);
     font-size:14px;
     letter-spacing:  0.03em; 
@@ -63,6 +63,12 @@ a {text-decoration: none;}
     color:var(--secondary-text);
 }
 
+.nav-link:hover,.nav-link:focus {
+    font-weight: 500;
+    line-height: 0.07;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
 .nav-link-active {
     font-weight: 500;
     line-height: 0.07;
@@ -137,6 +143,7 @@ color: var(--bg-white);
 
 /*section 2*/
 .advances-title{
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color:var(--secondary-text);
@@ -167,7 +174,7 @@ color: var(--bg-white);
 .team-title{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     color: var(--secondary-text);
 
@@ -220,7 +227,7 @@ text-align: center;
     line-height: 1.87;
 }
 
-.menu-button .active
+.menu-button.active
 {
     background-color: var(--accent-color);
     color: #FFFFFF;}
